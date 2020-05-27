@@ -1,0 +1,609 @@
+html {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+span {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+applet {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+object {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+iframe {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+h6 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+blockquote {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+pre {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+a {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+abbr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+acronym {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+address {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+big {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+cite {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+code {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+del {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dfn {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+em {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ins {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+kbd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+q {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+s {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+samp {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+small {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+strike {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+strong {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+sub {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+sup {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+tt {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+var {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+b {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+u {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+i {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+center {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+label {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+legend {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+table {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+caption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+tbody {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+tfoot {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+thead {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+tr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+th {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+td {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+article {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+aside {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+canvas {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+details {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+embed {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+figure {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+figcaption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+footer {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+header {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+hgroup {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+menu {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+nav {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+output {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+ruby {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+section {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+summary {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+time {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+mark {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+audio {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+video {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none;
+}
+::selection {
+	background: rgb(255, 183, 183);
+}
+* {
+	font-family: "BenchNine", sans-serif;
+}
+.container {
+	margin: 0px auto; width: 1140px;
+}
+.container {
+	width: 95%;
+}
+.text-content p {
+	padding-bottom: 10px; font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+header {
+	width: 100%; position: fixed; z-index: 2; background-color: rgb(44, 39, 34);
+}
+.spacere {
+	padding-top: 190px; clear: both;
+}
+div#logo {
+	margin: 30px 0px; width: 30%; float: left; position: relative;
+}
+#logo img {
+	width: 235px;
+}
+div#logoImg {
+	padding-right: 15px; float: left;
+}
+div#logoText {
+	float: left;
+}
+#logoText h1 {
+	color: rgb(255, 255, 255); text-transform: uppercase; font-size: 32px;
+}
+#logoText h3 {
+	color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 11px; font-size: 32px; margin-top: -12px;
+}
+div#mainNav {
+	width: 60%; float: left; position: inherit;
+}
+ul.menu {
+	list-style: none;
+}
+#mainNav li {
+	margin-left: 10px; float: left; display: block;
+}
+#mainNav a {
+	padding: 10px; border-radius: 3px; border: 1px solid rgb(44, 39, 34); border-image: none; color: rgb(229, 228, 228); text-transform: uppercase; font-size: 22px; text-decoration: none;
+}
+#mainNav li.current-menu-item a {
+	border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);
+}
+#mainNav a:hover {
+	border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);
+}
+.menu-main-menu-container {
+	padding-top: 53px; float: right;
+}
+div#socialIcons {
+	width: 10%; color: rgb(44, 39, 34); margin-top: 76px; float: left;
+}
+div#socialIcons li {
+	list-style: none; border-radius: 4px; text-align: center; margin-left: 5px; float: left; display: block; background-color: rgb(229, 228, 228);
+}
+div#socialIcons li:hover {
+	background-color: rgb(255, 255, 255);
+}
+div#socialIcons a {
+	padding: 3px 6px; width: 15px; color: rgb(44, 39, 34); text-decoration: none; display: block;
+}
+#socialIcons ul {
+	float: right;
+}
+#logo a {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+span.rowText {
+	margin: auto; padding: 10px 9px; left: 0px; top: 16%; width: 42%; text-align: center; right: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 44px; display: block; position: absolute; background-color: rgba(204, 91, 68, 0.53);
+}
+span.rowMainText {
+	margin: auto; padding: 10px 9px; left: 0px; top: 33%; width: 64%; text-align: center; right: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 62px; display: block; position: absolute; background-color: rgba(204, 91, 68, 0.53);
+}
+span.fadein3.rowText {
+	bottom: 31%;
+}
+span.rowstyle {
+	margin: auto; padding: 7px 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 3vw; display: block; background-color: rgb(204, 91, 68);
+}
+span.rowmainstyle {
+	margin: auto; padding: 7px 0px; border: 1px solid rgb(255, 255, 255); border-image: none; text-align: center; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 5vw; display: block; background-color: rgb(204, 91, 68);
+}
+.service-list li {
+	list-style: none; transition:0.5s linear; width: 30%; margin-right: 5%; float: left; position: relative; -o-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -webkit-transition: all 0.5s linear; -khtml-transition: all 0.5s linear;
+}
+.service-list li:last-child {
+	margin-right: 0px;
+}
+span.overlay {
+	transition:0.2s linear; width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.45); -o-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -khtml-transition: all 0.2s linear;
+}
+.service-list h3 {
+	margin: auto; left: 0px; top: 42%; text-align: center; right: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 54px; display: block; position: absolute; text-shadow: 0px 0px 10px rgba(22,22,22,1);
+}
+img {
+	height: inherit; max-width: 100%;
+}
+.service-list img {
+	width: 100%; display: block;
+}
+ul.service-list {
+	padding: 20px 0px;
+}
+h3 span {
+	padding: 0px 14px; border: 1px solid rgb(255, 255, 255); transition:0.2s linear; border-image: none; -o-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -khtml-transition: all 0.2s linear;
+}
+.service-list li:hover h3 span {
+	border-color: transparent; padding: 110px 100px;
+}
+.service-list li:last-child:hover h3 span {
+	border-color: transparent; padding: 110px 18px;
+}
+.service-list li:hover .overlay {
+	opacity: 0;
+}
+.service-list a {
+	width: 100%; height: 100%; color: transparent; position: absolute; z-index: 2;
+}
+.bxslider img {
+	width: 100%;
+}
+.rowmainstyle span {
+	color: rgb(44, 39, 34);
+}
+section#drinks-content {
+	padding: 20px 0px 57px; background-color: rgb(238, 238, 238);
+}
+section#event-content {
+	background-color: rgb(47, 42, 36);
+}
+ul.event-list li {
+	list-style: none; width: 22.5%; margin-right: 3.33%; float: left;
+}
+ul.event-list {
+	padding: 40px 0px;
+}
+ul.event-list li img {
+	width: 100%; display: block;
+}
+ul.event-list li:last-child {
+	margin-right: 0px;
+}
+.whiteBg {
+	padding-bottom: 3px; margin-bottom: 40px; background-color: rgb(255, 255, 255);
+}
+.whiteBg h3 span {
+	padding: 0px; border: currentColor; border-image: none; text-align: center; font-size: 28px;
+}
+.whiteBg h3 {
+	padding: 15px 0px 10px; text-align: center; text-transform: uppercase;
+}
+p.date {
+	text-align: center; color: rgb(145, 145, 144); font-size: 19px;
+}
+p.time {
+	text-align: center; color: rgb(145, 145, 144); font-size: 19px;
+}
+a.button {
+	margin: 11px auto 10px; padding: 10px 20px; border: 1px solid rgb(204, 91, 68); border-image: none; width: 35%; text-align: center; color: rgb(255, 255, 255); font-size: 21px; text-decoration: none; display: block; background-color: rgb(204, 91, 68);
+}
+p.time {
+	margin: 0px auto; width: 36%; padding-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+a img:hover {
+	opacity: 0.8;
+}
+a.button:hover {
+	color: rgb(204, 91, 68); background-color: rgb(255, 255, 255);
+}
+section#newsletter {
+	padding: 30px 0px; background-color: rgb(204, 91, 68);
+}
+form.subForm {
+	float: right;
+}
+#newsletter h4 {
+	color: rgb(255, 255, 255); text-transform: uppercase; padding-top: 4px; padding-right: 20px; font-size: 31px; font-weight: 700; float: left;
+}
+p.subText {
+	color: rgb(255, 255, 255); padding-top: 10px; font-size: 20px; float: left;
+}
+.subForm input[type='text'] {
+	padding: 11px 6px; border-radius: 5px; border: currentColor; border-image: none; width: 250px; color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(163, 73, 54);
+}
+input[type='submit'] {
+	padding: 11px;
+}
+footer {
+	padding: 30px 0px; background-color: rgb(26, 22, 19);
+}
+.one-third {
+	width: 30%; font-size: 19px; margin-right: 3.33%; float: left; position: relative;
+}
+footer h5 {
+	color: rgb(255, 255, 255); text-transform: uppercase; font-size: 25px;
+}
+footer strong {
+	color: rgb(255, 255, 255); padding-top: 16px; font-weight: 800; display: block;
+}
+footer {
+	color: rgb(170, 170, 170);
+}
+footer strong:first-child {
+	
+}
+footer a {
+	color: rgb(204, 91, 68); text-decoration: none;
+}
+.social {
+	padding-top: 16px;
+}
+.social i {
+	padding: 6px; border-radius: 5px; text-align: center; color: rgb(47, 42, 36); margin-right: 3px; min-width: 14px; background-color: rgb(170, 170, 170);
+}
+.social a:hover i {
+	background-color: rgb(255, 255, 255);
+}
+.openingHours p {
+	padding: 4px 0px; font-size: 20px; font-weight: 800; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.openingHours p span {
+	font-weight: 300; float: right;
+}
+.openingHours {
+	padding-top: 14px;
+}
+img.footerlogo {
+	margin-top: 12%; float: right;
+}
+.collapse-button:hover .icon-bar {
+	background-color: rgb(203, 91, 69);
+}
+ul.collapsed#menu-main-menu li {
+	width: 100%; margin-left: 0px; border-bottom-color: currentColor; border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.collapsed#menu-main-menu li a {
+	border: currentColor; border-image: none;
+}
+ul.collapsed#menu-main-menu {
+	padding: 17px; width: 100%; text-align: right; right: 0px; position: absolute; z-index: 15; background-color: rgb(44, 39, 34);
+}
+.text-content {
+	padding: 20px;
+}
+h2.page-title {
+	margin: 25px auto; width: 100%; text-align: center; color: rgb(204, 91, 68); text-transform: uppercase; line-height: 38px; font-size: 45px; font-weight: 600; display: block; position: relative;
+}
+.page-title::after {
+	left: 0px; top: 50%; width: calc(37% - 130px); height: 1px; display: block; position: absolute; content: ""; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -moz-transform: translateY(-50%);
+}
+.page-title::before {
+	left: 0px; top: 50%; width: calc(37% - 130px); height: 1px; display: block; position: absolute; content: ""; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -moz-transform: translateY(-50%);
+}
+.page-title::after {
+	background: linear-gradient(to left, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::before {
+	background: linear-gradient(to left, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::after {
+	background: linear-gradient(to left, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::before {
+	background: linear-gradient(to left, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::after {
+	background: linear-gradient(to right, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::after {
+	background: linear-gradient(to right, rgb(204, 91, 68) 0%, rgba(41, 137, 216, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.page-title::after {
+	left: auto; right: 0px;
+}
+.one-fifth {
+	width: 29%; text-align: center; margin-right: 20px; margin-bottom: 26px; float: left; min-height: 380px;
+}
+.one-fifth h3 {
+	color: rgb(44, 39, 34); text-transform: uppercase; font-size: 26px;
+}
+img.aligncenter {
+	margin: 0px auto; display: block;
+}
+.leftc {
+	margin: 2%; width: 46%; float: left;
+}
+.rightc {
+	margin: 2%; width: 46%; float: left;
+}
+div#wpcf7-f115-p17-o1 input {
+	width: 100%; height: 40px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+	width: 100%;
+}
+form.wpcf7-form p {
+	margin-bottom: 11px;
+}
+input.wpcf7-form-control.wpcf7-submit {
+	width: 100.5% !important;
+}
+.subForm label.error {
+	margin: 12px; float: left;
+}
+div#msg {
+	margin: 0px !important; top: 7px; text-align: right; right: 150px; color: rgb(255, 255, 255); font-weight: bold; position: absolute;
+}
+.subForm label.error {
+	color: rgb(255, 255, 255);
+}
+section#newsletter {
+	position: relative;
+}
+.leftit {
+	float: left;
+}
+.rightit {
+	width: 56%; float: left; min-width: 720px;
+}
+div#f2b-widget {
+	margin: 0px auto; width: 399px; text-align: center;
+}
+form#f2b_search_form {
+	text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+}
+.searchButtonContainer {
+	width: 94px !important; padding-top: 29px !important; padding-left: 10px !important; float: left !important;
+}
+input#stayLength {
+	margin: 1px 0px 0px !important; padding: 3px !important; width: 18px !important; height: 16px !important; line-height: normal !important; font-size: 12px !important;
+}
+.duration-box {
+	padding: 7px !important; border: 1px solid rgb(170, 170, 170) !important; border-image: none !important; width: 37px !important; height: 28px !important; float: left !important;
+}
+div#duration {
+	width: 56px !important; float: left !important;
+}
+div#cin {
+	width: 204px !important; margin-right: 10px !important; float: left !important;
+}
+.cin-box {
+	padding: 10px 5px !important; border: 1px solid rgb(170, 170, 170) !important; border-image: none !important; width: 201px !important;
+}
+input#checkInDisplay {
+	margin: 0px !important; padding: 5px !important; border: 1px solid rgb(92, 163, 210) !important; border-image: none !important; width: 157px !important; height: 15px !important; line-height: normal !important; font-size: 12px !important;
+}
+div#cin {
+	width: 204px !important; margin-right: 10px !important; float: left !important;
+}

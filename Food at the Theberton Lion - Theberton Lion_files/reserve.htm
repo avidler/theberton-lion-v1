@@ -1,0 +1,229 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0068)http://www.thebertonlion.co.uk/mySeatXT/api/reserve.php -->
+<HTML lang=en_EN xmlns="http://www.w3.org/1999/xhtml"><HEAD><META 
+content="IE=8.0000" http-equiv="X-UA-Compatible">
+<TITLE>Reservations</TITLE><!-- Meta data for SEO -->
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=X-UA-Compatible content=IE=8>
+<META name=robots content=follow,index,no-cache>
+<META name=author lang=en content="Bernd Orttenburger [www.myseat.us]">
+<META name=copyright lang=en content="mySeat [www.myseat.us]">
+<META name=keywords 
+content="mySeat, table reservation system, Bookings Diary, Reservation Diary, Restaurant Reservations, restaurant reservation system, open source, software, reservation management software, restaurant table management, table planner, restaurant table planner, table management, hotel">
+<META name=Description id=htmlTagMetaDescription 
+content="Make online reservationsfor lunch and dinners. mySeat is a OpenSource online reservation system for restaurants.">
+<META name=Keyword id=htmlTagMetaKeyword 
+content="restaurant reservations, online restaurant reservations, restaurant management software, mySeat, free tables"><!-- Meta data for all iDevices -->
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<META name=apple-mobile-web-app-capable content=yes>
+<META name=apple-mobile-web-app-status-bar-style content=black><LINK 
+href="http://www.myseat.us/favicon.ico" 
+rel="shortcut icon"><!-- CSS - Setup --><LINK 
+href="reserve_files/datepicker.css" rel=stylesheet type=text/css><LINK 
+href="reserve_files/style.css" rel=stylesheet type=text/css><!-- jQuery Library-->
+<SCRIPT src="reserve_files/main.js" type=text/javascript charset=UTF-8></SCRIPT>
+
+<SCRIPT src="reserve_files/jQuery.min.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="reserve_files/jquery.easing.1.3.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="reserve_files/jquery-ui.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="reserve_files/functions.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="reserve_files/jquery.ui.datepicker-.js" 
+type=text/javascript></SCRIPT>
+<!-- Uncomment to define your own color scheme for the booking form --><!-- The example here is from the Monmarthe DEMO page at myseat.us --><!--
+	<style type="text/css">
+		html {
+			background:url(images/html-bg.jpg) left top repeat !important;
+		}
+		.data1, .data2, .data3, .register{
+			background-color: #F6E6CC;			
+		}
+		h1, .data1 .number, .data2 .number, .data3 .number, .register .number{
+			color: #AB245E;			
+		}
+		a, a:active, a:visited {
+		color: #42032C;
+		}
+		a:hover {
+			color:#7e4e7f;
+			background-color: #F6E6CC;
+		}
+		.button:hover {
+			color:#7e4e7f;
+			background-color: #F6E6CC;
+		}
+			button, .button, .btn_pax {
+			background-color: #561C40;
+			color: #F6E6CC;
+			border: 1px solid #B89394;
+			text-shadow: none;
+		}
+	</style>
+--><!-- color scheme for the booking form END -->
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<DIV id=page-content>
+<UL class=langnav>
+  <LI><A 
+  href="http://www.thebertonlion.co.uk/mySeatXT/api/reserve.php?lang=en">EN</A></LI>
+  <LI><A 
+  href="http://www.thebertonlion.co.uk/mySeatXT/api/cancel.php">DELETE</A></LI></UL>
+<FORM name=contactForm id=contactForm action=process_booking.php method=post>
+<H1>Online booking for <SPAN>Standard</SPAN></H1>
+<DIV class=trenner></DIV><INPUT name=reservation_outlet_id id=single_outlet 
+type=hidden value=1>
+<DIV class=data1>
+<DIV class=number>1</DIV>
+<H3>Date</H3><!-- Datepicker --><INPUT name=dbdate id=dbdate type=hidden 
+value=2018-07-09> <INPUT name=reservation_date id=reservation_date 
+value=2018-07-09> <INPUT name=recurring_dbdate type=hidden value=2018-07-09> 
+</DIV>
+<DIV class=data2>
+<DIV class=number>2</DIV>
+<H3>People </H3>
+<DIV><INPUT name=reservation_pax id=reservation_pax type=text readOnly value=2> 
+<A class="inc btn_pax" href="javascript:void(0);">+</A> <A class="dec btn_pax" 
+href="javascript:void(0);">-</A> </DIV></DIV>
+<DIV class=data3>
+<DIV class=number>3</DIV>
+<H3>Time</H3><SELECT name=reservation_time title=" " class="drop required" 
+id=reservation_time size=1> <OPTION value="" selected>--</OPTION> <OPTION 
+  value=11:30>11:30</OPTION> <OPTION value=11:45>11:45</OPTION> <OPTION 
+  value=12:00>12:00</OPTION> <OPTION value=12:15>12:15</OPTION> <OPTION 
+  value=12:30>12:30</OPTION> <OPTION value=12:45>12:45</OPTION> <OPTION 
+  value=13:00>13:00</OPTION> <OPTION value=13:15>13:15</OPTION> <OPTION 
+  value=13:30>13:30</OPTION> <OPTION value=13:45>13:45</OPTION> <OPTION 
+  value=14:00>14:00</OPTION> <OPTION value=14:15>14:15</OPTION> <OPTION 
+  value=14:30>14:30</OPTION> <OPTION value=14:45>14:45</OPTION> <OPTION 
+  value=15:00>15:00</OPTION> <OPTION value=15:15>15:15</OPTION> <OPTION 
+  value=15:30>15:30</OPTION> <OPTION value=15:45>15:45</OPTION> <OPTION 
+  value=16:00>16:00</OPTION> <OPTION value=16:15>16:15</OPTION> <OPTION 
+  value=16:30>16:30</OPTION> <OPTION value=16:45>16:45</OPTION> <OPTION 
+  value=17:00>17:00</OPTION> <OPTION value=17:15>17:15</OPTION> <OPTION 
+  value=17:30>17:30</OPTION> <OPTION value=17:45>17:45</OPTION> <OPTION 
+  value=18:00>18:00</OPTION> <OPTION value=18:15>18:15</OPTION> <OPTION 
+  value=18:30>18:30</OPTION> <OPTION value=18:45>18:45</OPTION> <OPTION 
+  value=19:00>19:00</OPTION> <OPTION value=19:15>19:15</OPTION> <OPTION 
+  value=19:30>19:30</OPTION> <OPTION value=19:45>19:45</OPTION> <OPTION 
+  value=20:00>20:00</OPTION> <OPTION value=20:15>20:15</OPTION> <OPTION 
+  value=20:30>20:30</OPTION> <OPTION value=20:45>20:45</OPTION> <OPTION 
+  value=21:00>21:00</OPTION> <OPTION value=21:15>21:15</OPTION> <OPTION 
+  value=21:30>21:30</OPTION> <OPTION value=21:45>21:45</OPTION> <OPTION 
+  value=22:00>22:00</OPTION> <OPTION value=22:15>22:15</OPTION> <OPTION 
+  value=22:30>22:30</OPTION> <OPTION value=22:45>22:45</OPTION> <OPTION 
+  value=23:00>23:00</OPTION> <OPTION value=23:15>23:15</OPTION> <OPTION 
+  value=23:30>23:30</OPTION> <OPTION value=23:45>23:45</OPTION> <OPTION 
+  value=00:00>00:00</OPTION></SELECT> </DIV>
+<DIV class=register>
+<DIV class=number>4</DIV>
+<H3>Detail</H3><LABEL>Title</LABEL><BR><BR><SELECT name=reservation_title 
+title=" " class=drop id=reservation_title size=1> <OPTION value=M 
+  selected>Mr.</OPTION> <OPTION value=W>Mrs.</OPTION> <OPTION 
+  value=D>Dr.</OPTION> <OPTION value=P>Prof.</OPTION> <OPTION 
+  value=F>Fam.</OPTION> <OPTION value=C>Company</OPTION></SELECT> <BR>
+<DIV><LABEL>Name</LABEL><BR><INPUT name=reservation_guest_name class=required 
+id=reservation_guest_name type=text> </DIV><BR>
+<DIV><LABEL>Email</LABEL><BR><INPUT name=reservation_guest_email 
+class="required email" id=reservation_guest_email type=text> </DIV><BR>
+<DIV><LABEL>Phone</LABEL><BR><INPUT name=reservation_guest_phone class=required 
+id=reservation_guest_phone type=text> </DIV><BR>
+<DIV><LABEL>Important details (allergies, wishes)</LABEL><BR><TEXTAREA name=reservation_notes id=reservation_notes rows=5 cols=50></TEXTAREA> 
+</DIV><BR><INPUT name=action id=action type=hidden value=submit> <INPUT 
+name=barrier type=hidden value=8876cde5bc89444cd5a00cf339f631d1> <INPUT 
+name=reservation_referer type=hidden value=www.thebertonlion.co.uk> <INPUT 
+name=reservation_hotelguest_yn id=reservation_hotelguest_yn type=hidden 
+value=PASS> <INPUT name=reservation_booker_name id=reservation_booker_name 
+type=hidden value="Contact Form"> <INPUT name=reservation_author 
+id=reservation_author type=hidden value="The Theberton Lion Team"> <INPUT 
+name=email_type id=email_type type=hidden value=en_EN> <BR>
+<DIV class=tl><INPUT name=reservation_advertise id=reservation_advertise 
+type=checkbox value=YES> &nbsp;<STRONG>I would like to receive informations by 
+email.</STRONG> <BR><!-- <div style="visibility:hidden;"> --><INPUT name=terms 
+class="required checkbox" id=terms type=checkbox CHECKED value=YES> <A 
+class=checktext 
+onclick="window.open(this.href, this.target, 'width=700,height=700'); return false;" 
+href="http://www.myseat.us/terms.htm" target=_blank>&nbsp;I accept the terms of 
+use of the restaurant. </A><!-- </div> --></DIV><BR></DIV><BR>
+<DIV 
+class=tc><INPUT class=button type=submit value=Create></DIV></DIV></FORM><BR>
+<DIV></DIV>
+<DIV></DIV><!-- page content end -->
+<DIV></DIV><!-- page container end -->
+<DIV></DIV><!-- main close --><!-- Javascript at the bottom for fast page loading -->
+<SCRIPT>
+	/* utility functions */
+	var unavailableDates = ['2018-07-09','2018-07-16','2018-07-23','2018-07-30','2018-08-06','2018-08-13','2018-08-20','2018-08-27','2018-09-03','2018-09-10','2018-09-17','2018-09-24','2018-10-01','2018-10-08','2018-10-15','2018-10-22','2018-10-29','2018-11-05','2018-11-12','2018-11-19','2018-11-26','2018-12-03','2018-12-10','2018-12-17','2018-12-24','2018-12-31','2019-01-07'];
+
+	function unavailable(date) {
+		var m = date.getMonth(), d = date.getDate(), y = date.getFullYear();
+		m = m+1;
+		/* add leading zero */
+		if (d < 10) d = "0" + d;
+		if (m < 10) m = "0" + m;
+	  ymd = y + "-" + m + "-" + d;
+	  if ($.inArray(ymd, unavailableDates) == -1) {
+	    return [true];
+	  } else {
+	    return [false];
+	  }
+	}
+
+ jQuery(document).ready(function($) {
+      // Setup datepicker input at customer reservation form
+      $("#reservation_date").datepicker({
+		  minDate: '0',
+		  maxDate: '+6M',      
+		  nextText: '&raquo;',
+	      prevText: '&laquo;',
+		  showOn: "button",
+		  buttonImage: "images/button_cal.png",
+		  buttonImageOnly: true,
+	      firstDay: 1,
+	      numberOfMonths: 1,
+	      gotoCurrent: true,
+	      altField: '#dbdate',
+	      altFormat: 'yy-mm-dd',
+	      defaultDate: 0,
+		  beforeShowDay: unavailable,
+	      dateFormat: 'd/m/y',
+	      regional: 'en',
+	      onSelect: function(dateText, inst) { window.location.href="?selectedDate=" + $("#dbdate").val() }
+      });
+      // month is 0 based, hence for Feb. we use 1
+	     $("#reservation_date").datepicker('setDate', new Date(2018, 6, 09));
+	     	$("#ui-datepicker-div").hide();
+	     	$("#reservation_outlet_id").change(function(){
+	    		window.location.href='?propertyID=1&outletID=' + this.value;
+	  	 	});
+	
+	 // +/- button for pax field  
+		$(".btn_pax").click(function() {
+		    var $button = $(this);
+		    var oldValue = $button.parent().find("input").val();
+  
+		if ($button.text() == "+") {
+				  if(oldValue < 8){
+		          	  var newVal = parseFloat(oldValue) + 1;
+		          	  // AJAX save would go here
+				  }else{
+					  var newVal = parseFloat(oldValue);
+				  }
+		        } else {
+		          // Don't allow decrementing below zero
+		          if (oldValue >= 1) {
+		              var newVal = parseFloat(oldValue) - 1;
+		              // AJAX save would go here
+		          }else{
+					  var newVal = parseFloat(oldValue);
+				  }
+		        }
+		        $button.parent().find("input").val(newVal);
+				window.location.href='?pax=' + newVal;
+		});
+	
+    });
+</SCRIPT>
+</BODY></HTML>

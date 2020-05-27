@@ -1,0 +1,294 @@
+@media screen and (max-width:1799px)
+{
+.menu-main-menu-container {
+	padding-top: 78px;
+}
+}
+@media screen and (max-width:1150px)
+{
+.container {
+	margin: 0px auto; width: 96%;
+}
+.one-fifth {
+	width: 25%;
+}
+}
+@media screen and (max-width:1110px)
+{
+div#socialIcons {
+	display: none;
+}
+div#mainNav {
+	width: 70%;
+}
+span.rowText {
+	top: 11%;
+}
+span.fadein3.rowText {
+	bottom: 24%;
+}
+div#mainNav {
+	width: 67%;
+}
+div#logo {
+	width: 33%;
+}
+.service-list h3 {
+	font-size: 32px;
+}
+}
+@media screen and (max-width:1025px)
+{
+.openingHours p span {
+	padding-top: 8px; font-size: 11px;
+}
+}
+@media screen and (max-width:1012px)
+{
+header {
+	position: relative;
+}
+.spacere {
+	padding-top: 0px; clear: both;
+}
+}
+@media screen and (max-width:950px)
+{
+div#logo {
+	width: 70%;
+}
+div#mainNav {
+	width: 30%;
+}
+span.rowMainText {
+	width: 80%;
+}
+span.rowText {
+	top: 11%;
+}
+span.fadein3.rowText {
+	bottom: 18%;
+}
+ul.event-list li {
+	width: 30.9%;
+}
+ul.event-list li:last-child {
+	display: none;
+}
+ul.event-list li:nth-child(3) {
+	margin-right: 0px;
+}
+#newsletter h4 {
+	text-align: center; float: none;
+}
+p.subText {
+	text-align: center; float: none;
+}
+form.subForm {
+	text-align: center; margin-top: 10px; float: none;
+}
+}
+@media all and (max-width:800px)
+{
+.one-fifth {
+	width: 33.33%;
+}
+.text-content :nth-child(5n).one-fifth {
+	clear: both;
+}
+.one-fifth h3 {
+	font-size: 17px;
+}
+}
+@media screen and (max-width:690px)
+{
+.openingHours p span {
+	padding-top: 5px; font-size: 13px;
+}
+.leftc {
+	width: 96%;
+}
+.rightc {
+	width: 96%;
+}
+.service-list li {
+	width: 100%; margin-bottom: 25px;
+}
+.service-list img {
+	width: 100%;
+}
+.service-list h3 {
+	font-size: 12vw;
+}
+span.fadein3.rowText {
+	bottom: 10%; display: none !important;
+}
+span.fadein1.rowText {
+	top: 5%; display: none !important;
+}
+span.fadein2.rowMainText {
+	padding: 0px 0px 20px; top: 0%; width: 100%;
+}
+span.overlay {
+	
+}
+span.rowmainstyle {
+	border-top-color: currentColor; border-right-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-right-width: medium; border-left-width: medium; border-top-style: none; border-right-style: none; border-left-style: none;
+}
+ul.event-list li {
+	width: 48%;
+}
+ul.event-list li:nth-child(3) {
+	display: none;
+}
+ul.event-list li:nth-child(2) {
+	margin-right: 0px;
+}
+footer :nth-child(3).one-third {
+	display: none;
+}
+footer .one-third {
+	width: 46%; font-size: 16px;
+}
+.openingHours p {
+	font-size: 17px;
+}
+}
+@media screen and (max-width:600px)
+{
+div#logo {
+	width: 301px; text-align: center; padding-top: 22px; margin-top: 0px; margin-bottom: 11px; float: left;
+}
+div#logoImg {
+	padding: 5px 0px 0px; float: left;
+}
+div#logoText {
+	font-size: 10px; float: left;
+}
+#logoText h3 {
+	letter-spacing: 9px; font-size: 39px; margin-left: 9px;
+}
+#logoText h1 {
+	font-size: 33px;
+}
+div#mainNav {
+	margin: 38px auto 0px; width: 164px; text-align: left; float: right;
+}
+.menu-main-menu-container {
+	padding-top: 0px; float: none;
+}
+.menu-collapser {
+	text-align: left;
+}
+ul.collapsed#menu-main-menu {
+	text-align: center;
+}
+.collapse-button {
+	
+}
+.menu-collapser {
+	padding: 0px; margin-bottom: 20px;
+}
+}
+@media screen and (max-width:520px)
+{
+.menu-collapser {
+	width: 51px; color: transparent; overflow: hidden;
+}
+div#mainNav {
+	width: 50px;
+}
+}
+@media all and (max-width:500px)
+{
+.one-fifth {
+	width: 50%;
+}
+.text-content :nth-child(5n).one-fifth {
+	clear: none;
+}
+.text-content :nth-child(2n).one-fifth {
+	clear: both;
+}
+}
+@media screen and (max-width:485px)
+{
+.one-third {
+	width: 100% !important; margin-bottom: 30px;
+}
+}
+@media screen and (max-width:382px)
+{
+div#logo {
+	width: 250px; text-align: left;
+}
+#logoText h1 {
+	font-size: 26px;
+}
+#logoText h3 {
+	font-size: 26px; margin-left: 0px;
+}
+div#logoText {
+	
+}
+div#logoImg img {
+	width: 74%;
+}
+div#mainNav {
+	margin-top: 27px;
+}
+}
+@media screen and (min-width:1800px)
+{
+#mainNav a {
+	font-size: 2vw;
+}
+div#logo {
+	margin: 1% 0px;
+}
+#logoText h3 {
+	font-size: 3.24vw; margin-top: -26px;
+}
+#logoText h1 {
+	font-size: 2.54vw;
+}
+div#logoImg {
+	width: 21%;
+}
+div#logoImg img {
+	width: 100%;
+}
+div#mainNav {
+	margin-top: 24px;
+}
+div#socialIcons {
+	margin-top: 76px;
+}
+div#socialIcons li {
+	
+}
+div#socialIcons a {
+	padding: 12px;
+}
+.service-list h3 {
+	top: 39%; font-size: 4.4vw;
+}
+}
+@media screen and (min-width:2400px)
+{
+#logoText h3 {
+	font-size: 3.64vw;
+}
+#mainNav a {
+	font-size: 2.2vw;
+}
+div#mainNav {
+	margin-top: 55px;
+}
+div#socialIcons a {
+	padding: 20px 24px; font-size: 25px;
+}
+div#socialIcons {
+	margin-top: 98px;
+}
+}

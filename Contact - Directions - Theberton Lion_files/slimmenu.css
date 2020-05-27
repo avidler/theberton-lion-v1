@@ -1,0 +1,69 @@
+.menu-collapser {
+	padding: 0px 58px 0px 8px; width: 100%; height: 48px; text-align: right; color: rgb(205, 91, 67); text-transform: uppercase; line-height: 48px; font-size: 28px; font-weight: bold; position: relative; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.collapse-button {
+	border-width: 1px; border-style: solid; padding: 7px 10px; border-radius: 4px; top: 50%; width: 40px; text-align: center; right: 8px; color: rgb(255, 255, 255); font-size: 26px; position: absolute; cursor: pointer; box-sizing: border-box; box-shadow: inset 0px 1px 0px rgba(255,255,255,0.1), 0px 1px 0px rgba(255,255,255,0.075); text-shadow: 0px -1px 0px rgba(0,0,0,0.25); transform: translate(0px, -50%); background-repeat: repeat-x; background-color: rgb(205, 91, 67); -webkit-transform: translate(0, -50%); -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-transform: translate(0, -50%); -moz-transform: translate(0, -50%);
+}
+.collapse-button:hover {
+	color: rgb(203, 91, 67); background-image: none; background-color: rgb(255, 255, 255);
+}
+.collapse-button:focus {
+	color: rgb(203, 91, 67); background-image: none; background-color: rgb(255, 255, 255);
+}
+.collapse-button .icon-bar {
+	margin: 2px 0px; border-radius: 1px; width: 18px; height: 2px; display: block; box-shadow: 0px 1px 0px rgba(0,0,0,0.25); background-color: rgb(245, 245, 245);
+}
+ul.slimmenu {
+	margin: 0px; padding: 0px; width: 100%; list-style-type: none;
+}
+ul.slimmenu li {
+	display: inline-block; position: relative; background-color: rgb(170, 170, 170);
+}
+ul.slimmenu > li {
+	margin-right: -5px; border-left-color: rgb(153, 153, 153); border-left-width: 1px; border-left-style: solid;
+}
+ul.slimmenu > li:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+ul.slimmenu > li:last-child {
+	margin-right: 0px;
+}
+ul.slimmenu li a {
+	padding: 12px 64px 12px 16px; transition:background-color 0.5s ease-out; color: rgb(51, 51, 51); font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 400; display: block; text-shadow: 0px 1px 0px rgba(255,255,255,0.2); -o-transition: background-color 0.5s ease-out; -moz-transition: background-color 0.5s ease-out; -webkit-transition: background-color 0.5s ease-out;
+}
+ul.slimmenu li a:hover {
+	text-decoration: none; background-color: rgb(153, 153, 153);
+}
+ul.slimmenu li .sub-collapser {
+	background: 0px 0px rgba(0, 0, 0, 0.075); top: 0px; width: 48px; height: 100%; text-align: center; right: 0px; position: absolute; z-index: 999; cursor: pointer;
+}
+ul.slimmenu li .sub-collapser::before {
+	height: 100%; margin-right: -0.25em; vertical-align: middle; display: inline-block; content: "";
+}
+ul.slimmenu li .sub-collapser > i {
+	color: rgb(51, 51, 51); font-size: 18px; vertical-align: middle; display: inline-block;
+}
+ul.slimmenu li ul {
+	margin: 0px; list-style-type: none;
+}
+ul.slimmenu li ul li {
+	background-color: rgb(187, 187, 187);
+}
+ul.slimmenu li > ul {
+	left: 0px; top: 100%; width: 100%; display: none; position: absolute; z-index: 999;
+}
+ul.slimmenu li > ul > li ul {
+	left: 100%; top: 0px; width: 100%; display: none; position: absolute; z-index: 999;
+}
+ul.slimmenu.collapsed li {
+	width: 100%; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+ul.slimmenu.collapsed li a {
+	border-bottom-color: rgba(0, 0, 0, 0.075); border-bottom-width: 1px; border-bottom-style: solid; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+ul.slimmenu.collapsed li .sub-collapser {
+	height: 40px;
+}
+ul.slimmenu.collapsed li > ul {
+	display: none; position: static;
+}
